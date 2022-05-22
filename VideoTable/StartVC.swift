@@ -1,4 +1,5 @@
 import UIKit
+import AVKit
 
 class StartVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -41,5 +42,13 @@ extension StartVC : UITableViewDataSource {
         cell.name.text = previewArray[indexPath.row].name
         cell.picture.image = UIImage(named: previewArray[indexPath.row].image)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let player = AVPlayer(url: previewArray[indexPath.row].url)
+        let playerControl = AVPlayerViewController()
+        playerControl.player = player
+        playerControl.player?.play()
+        present(playerControl, animated: true, completion: nil)
     }
 }
