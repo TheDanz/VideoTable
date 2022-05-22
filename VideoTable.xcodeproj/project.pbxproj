@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0595A242283ACAE200649D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A241283ACAE200649D85 /* AppDelegate.swift */; };
 		0595A244283ACAE200649D85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A243283ACAE200649D85 /* SceneDelegate.swift */; };
-		0595A246283ACAE200649D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A245283ACAE200649D85 /* ViewController.swift */; };
 		0595A249283ACAE200649D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0595A247283ACAE200649D85 /* Main.storyboard */; };
 		0595A24B283ACAE300649D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0595A24A283ACAE300649D85 /* Assets.xcassets */; };
 		0595A24E283ACAE300649D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0595A24C283ACAE300649D85 /* LaunchScreen.storyboard */; };
+		0595A258283ACCE300649D85 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A257283ACCE300649D85 /* Preview.swift */; };
+		0595A25A283AD5FD00649D85 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A259283AD5FD00649D85 /* MyCell.swift */; };
+		0595A25C283AD71200649D85 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595A25B283AD71200649D85 /* StartVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0595A23E283ACAE200649D85 /* VideoTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0595A241283ACAE200649D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0595A243283ACAE200649D85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0595A245283ACAE200649D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0595A248283ACAE200649D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0595A24A283ACAE300649D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0595A24D283ACAE300649D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0595A24F283ACAE300649D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0595A257283ACCE300649D85 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		0595A259283AD5FD00649D85 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		0595A25B283AD71200649D85 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				0595A241283ACAE200649D85 /* AppDelegate.swift */,
 				0595A243283ACAE200649D85 /* SceneDelegate.swift */,
-				0595A245283ACAE200649D85 /* ViewController.swift */,
 				0595A247283ACAE200649D85 /* Main.storyboard */,
+				0595A259283AD5FD00649D85 /* MyCell.swift */,
+				0595A25B283AD71200649D85 /* StartVC.swift */,
+				0595A257283ACCE300649D85 /* Preview.swift */,
 				0595A24A283ACAE300649D85 /* Assets.xcassets */,
 				0595A24C283ACAE300649D85 /* LaunchScreen.storyboard */,
 				0595A24F283ACAE300649D85 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0595A246283ACAE200649D85 /* ViewController.swift in Sources */,
+				0595A25A283AD5FD00649D85 /* MyCell.swift in Sources */,
 				0595A242283ACAE200649D85 /* AppDelegate.swift in Sources */,
+				0595A258283ACCE300649D85 /* Preview.swift in Sources */,
 				0595A244283ACAE200649D85 /* SceneDelegate.swift in Sources */,
+				0595A25C283AD71200649D85 /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
